@@ -1,4 +1,4 @@
 from main import suma 
 
-deff test_suma():
+def test_suma():
     assert suma(2, 3) == 5
