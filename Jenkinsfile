@@ -20,7 +20,7 @@ pipeline {
             steps {
                 bat '''
                 call venv\\Scripts\\activate
-                python -m unittest || echo No hay pruebas
+                pytest -v || echo No hay pruebas
                 '''
             }
         }
